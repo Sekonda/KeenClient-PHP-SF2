@@ -21,7 +21,8 @@
         "keen-io/keen-io":          "~2.1",
         "symfony/config": "~2.3 || ~3.0",
         "symfony/dependency-injection": "~2.3 || ~3.0",
-        "symfony/http-kernel": "~2.3 || ~3.0"
+        "symfony/http-kernel": "~2.3 || ~3.0",
+        "squizlabs/php_codesniffer": "^3.5"
     },
     "require-dev": {
         "symfony/phpunit-bridge": "~3.2",

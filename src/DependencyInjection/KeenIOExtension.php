@@ -16,7 +16,9 @@ class KeenIOExtension extends Extension
 
         $arguments = array();
         foreach ($config as $key => $value) {
-            $key = preg_replace_callback('/_([a-z])/', function ($str) { return strtoupper($str[1]); }, $key);
+            $key = preg_replace_callback('/_([a-z])/', function ($str) {
+                return strtoupper($str[1]);
+            }, $key);
             $arguments[ $key ] = $value;
         }
 
