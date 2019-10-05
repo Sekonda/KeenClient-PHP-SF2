@@ -32,5 +32,5 @@ install:
   - composer update $COMPOSER_FLAGS
 
 script: 
-  - phpunit --coverage-text
-  - phpcs --standard=PSR2 src
+  - ./vendor/bin/phpunit --coverage-text
+  - ./vendor/bin/phpcs --standard=PSR2 src
