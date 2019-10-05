@@ -31,4 +31,6 @@ before_install:
 install:
   - composer update $COMPOSER_FLAGS
 
-script: phpunit --coverage-text
+script: 
+  - phpunit --coverage-text
+  - phpcs --standard=PSR2 src
